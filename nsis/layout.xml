@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="600,560" caption="0,0,0,30">
+  <VerticalLayout bkcolor="#FFFFFFFF" bkimage="bg.png">
+    <!-- 关闭按钮 -->
+    <Button name="btn_close" bkimage="windows_close.png" size="12,12" padding="570,20,0,0" />
+    <!-- 最小化按钮 -->
+    <Button name="btn_minimize" bkimage="windows_small.png" size="12,12" padding="545,-7,0,0" />
+    <!-- 主内容区域 -->
+    <VerticalLayout inset="0,60,0,0" childpadding="5" childalign="center" childvalign="top">
+      <!-- Logo -->
+      <Control bkimage="logo.png" size="64,64" padding="270,20,0,0" floatalign="center" />
+      <!-- 标题 -->
+      <Label text="精湛应用商店" align="center" fontsize="25" bold="true" textcolor="#FF000000" bordersize="5" />
+      <!-- 立即安装按钮 -->
+      <Button name="btn_install" text="立即安装" bkimage="install_normal.png" size="104,35" padding="250,50,0,-15" />
+      <!-- 状态文本 -->
+      <Label name="status_text" text="状态: 准备安装" textcolor="#FF666666" bkcolor="#FFF5F5F5" padding="5,2,5,2" />
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>
+
+
