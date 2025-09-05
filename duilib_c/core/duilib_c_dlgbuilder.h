@@ -2,6 +2,7 @@
 #define __DUILIB_C_DLGBUILDER_H__
 
 #include "duilib_c_base.h"
+#include "../duilib_c_types.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -10,9 +11,6 @@ extern "C" {
 //=============================================================================
 // 对话框构建器API - 对应 CDlgBuilder
 //=============================================================================
-
-// 对话框构建器句柄
-typedef struct duilib_dlgbuilder* duilib_dlgbuilder_t;
 
 // 对话框构建器回调函数类型 - 对应 IDialogBuilderCallback
 typedef duilib_control_t (*duilib_dialog_builder_callback_t)(const char* class_name, void* user_data);

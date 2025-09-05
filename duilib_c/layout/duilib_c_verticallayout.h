@@ -2,6 +2,7 @@
 #define __DUILIB_C_VERTICALLAYOUT_H__
 
 #include "../core/duilib_c_base.h"
+#include "../duilib_c_types.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -10,9 +11,6 @@ extern "C" {
 //=============================================================================
 // 垂直布局控件API - 对应 CVerticalLayoutUI
 //=============================================================================
-
-// 垂直布局控件句柄
-typedef struct duilib_verticallayout* duilib_verticallayout_t;
 
 //=============================================================================
 // 垂直布局控件基础API

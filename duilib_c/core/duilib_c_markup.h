@@ -2,6 +2,7 @@
 #define __DUILIB_C_MARKUP_H__
 
 #include "duilib_c_base.h"
+#include "../duilib_c_types.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -10,10 +11,6 @@ extern "C" {
 //=============================================================================
 // XML标记解析器API - 对应 CMarkup
 //=============================================================================
-
-// 标记解析器句柄
-typedef struct duilib_markup* duilib_markup_t;
-typedef struct duilib_markup_node* duilib_markup_node_t;
 
 // XML 编码类型 - 对应原始定义
 typedef enum {

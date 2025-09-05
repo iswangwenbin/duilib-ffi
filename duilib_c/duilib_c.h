@@ -22,9 +22,9 @@ extern "C" {
 //=============================================================================
 #include "core/duilib_c_base.h"          // 基础类型和结构定义 - UIDefine.h + UIBase.h
 #include "core/duilib_c_window.h"        // 窗口API - UIBase.h (CWindowWnd)
+#include "core/duilib_c_manager.h"       // 管理器API - UIManager.h (CPaintManagerUI) - must come before control.h
 #include "core/duilib_c_control.h"       // 控件基类API - UIControl.h (CControlUI)
 #include "core/duilib_c_container.h"     // 容器API - UIContainer.h (CContainerUI)
-#include "core/duilib_c_manager.h"       // 管理器API - UIManager.h (CPaintManagerUI)
 #include "core/duilib_c_dlgbuilder.h"    // 对话框构建器API - UIDlgBuilder.h (CDialogBuilder)
 #include "core/duilib_c_markup.h"        // XML标记解析器API - UIMarkup.h (CMarkup/CMarkupNode)
 #include "core/duilib_c_render.h"        // 渲染引擎API - UIRender.h (CRenderEngine/CRenderClip)

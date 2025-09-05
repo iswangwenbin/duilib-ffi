@@ -2,6 +2,7 @@
 #define __DUILIB_C_BUTTON_H__
 
 #include "../core/duilib_c_base.h"
+#include "../duilib_c_types.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -10,9 +11,6 @@ extern "C" {
 //=============================================================================
 // 按钮控件API - 对应 CButtonUI
 //=============================================================================
-
-// 按钮控件句柄
-typedef struct duilib_button* duilib_button_t;
 
 // 按钮状态枚举
 typedef enum {
